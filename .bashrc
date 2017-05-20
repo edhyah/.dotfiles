@@ -15,7 +15,8 @@ alias s='simics46'
 
 #export PS1="\e[0;31m[\u@\h \W]\$ \e[m "
 #export PS1="\e[0;31m[\u@\h \W]\$ \e[m"
-PS1='\[\033[38;5;1m\][\u@\h \W]\[\033[0m\] '
+#PS1='\[\033[38;5;1m\][\u@\h \W]\[\033[0m\] '
+PS1='\[\e[1;91m\][\u@\h \w]\$\[\e[0m\] '
 
 LS_COLORS=$LS_COLORS:'*.tar=0;32:' ; export LS_COLORS
 LS_COLORS=$LS_COLORS:'*.tgz=0;32:' ; export LS_COLORS
