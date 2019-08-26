@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/edwardahn/.tmux'
+let g:netrw_dirhist_2='/Users/edwardahn/Documents/university/research/rllab/aa_simulation'
+let g:netrw_dirhist_3='/Users/edwardahn/Documents/university/research/rllab/data/cluster'
+let g:netrw_dirhist_4='/Users/edwardahn/Documents/university/research/rllab/data/thesis/safety/fast_circle/trpo'
