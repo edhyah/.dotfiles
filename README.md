@@ -23,3 +23,8 @@ included in `IGNORE` in `install.sh`.
 ## Acknowledgements
 
 Inspired by Richard Zhao's [.dotfiles](https://github.com/zhaorz/.dotfiles) repo.
+
+## TODO
+
+* Add git submodules for plugins
+* List plugins used in README
