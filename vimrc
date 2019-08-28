@@ -39,8 +39,8 @@ syntax on
 filetype indent plugin on
 set ruler
 set expandtab
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 set smarttab
 set number
 set backspace=indent,eol,start
@@ -66,8 +66,4 @@ noremap <silent> - <C-e>
 noremap <silent> = <C-y>
 noremap <silent> B 10b
 noremap <silent> W 10w
-
-" TeX rendering
-autocmd Filetype tex setl updatetime=1
-let g:livepreview_previewer = 'open -a Preview'
 

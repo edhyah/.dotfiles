@@ -17,3 +17,4 @@ alias bashrc='vim ~/.bash_profile'
 alias source_bashrc='source ~/.bash_profile'
 alias source_tmux='tmux source ~/.tmux.conf'
 
+alias flow='~/Documents/flowvm/build/cxx/flow'
