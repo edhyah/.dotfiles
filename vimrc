@@ -50,8 +50,8 @@ else
 end
 
 " Highlight extra whitespace, must go at the end to avoid being overwritten
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+"highlight ExtraWhitespace ctermbg=red guibg=red
+"match ExtraWhitespace /\s\+$/
 
 " Exit insert mode with kj and not esc
 inoremap kj <ESC>
@@ -66,5 +66,6 @@ noremap <silent> B 10b
 noremap <silent> W 10w
 
 " Syntax highlighting for flow
-"au BufNewFile,BufRead *.flow set filetype=c
+set runtimepath+=~/.vim/bundle/swift.vim
+au BufNewFile,BufRead *.flow set filetype=swift
 
