@@ -1,8 +1,6 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
-" LaTeX live previewing
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Plugin outside ~/.vim/plugged with post-update hook
@@ -66,4 +64,7 @@ noremap <silent> - <C-e>
 noremap <silent> = <C-y>
 noremap <silent> B 10b
 noremap <silent> W 10w
+
+" Syntax highlighting for flow
+"au BufNewFile,BufRead *.flow set filetype=c
 
