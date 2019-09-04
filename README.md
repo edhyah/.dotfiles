@@ -8,7 +8,7 @@ These dotfiles are intended for a macOS system.
 
 ## Install
 
-I used the dark solarized theme for my terminal. To do this, download [iterm2](https://iterm2.com) and change your profile to this color preset.
+I used the dark solarized theme for my terminal. To do this, download [iTerm2](https://iterm2.com) and change your profile to this color preset.
 
 ```bash
 $ cd ~
@@ -22,6 +22,8 @@ $ ./install.sh
 All files and directories will be symlinked to your home directory unless
 included in `IGNORE` in `install.sh`.
 
+If the arrow glyphs on the bottom do not show, install patched fonts for powerline [here](https://github.com/powerline/fonts). You will also need to set the Non-ASCII font in "iTerm > Preferences > Profiles > Text" to use a patched font (per [this](https://github.com/powerline/fonts/issues/44) issue).
+
 ## Acknowledgements
 
 Inspired by Richard Zhao's [.dotfiles](https://github.com/zhaorz/.dotfiles) repo.
@@ -29,3 +31,4 @@ Inspired by Richard Zhao's [.dotfiles](https://github.com/zhaorz/.dotfiles) repo
 ## TODO
 
 * List plugins used in README
+* Add photo
