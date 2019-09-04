@@ -12,7 +12,7 @@ I used the dark solarized theme for my terminal. To do this, download [iTerm2](h
 
 ```bash
 $ cd ~
-$ git clone https://github.com/edhyah/dotfiles.git .dotfiles
+$ git clone https://github.com/edhyah/.dotfiles.git .dotfiles
 
 $ cd .dotfiles
 $ chmod a+x install.sh
