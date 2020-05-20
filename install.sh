@@ -15,6 +15,7 @@ IGNORE=(
     "hammerspoon"
     "oh-my-zsh"
     "oh-my-zsh-custom"
+    "bash_profile"
 )
 
 DOTFILES_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
