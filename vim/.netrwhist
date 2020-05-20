@@ -1,8 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/edwardahn/.tmux'
-let g:netrw_dirhist_2='/Users/edwardahn/Documents/university/research/rllab/aa_simulation'
-let g:netrw_dirhist_3='/Users/edwardahn/Documents/university/research/rllab/data/cluster'
-let g:netrw_dirhist_4='/Users/edwardahn/Documents/university/research/rllab/data/thesis/safety/fast_circle/trpo'
-let g:netrw_dirhist_5='/Users/edwardahn/.dotfiles'
-let g:netrw_dirhist_6='/Users/edwardahn/.dotfiles/vim/bundle/swift.vim'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/edwardahn/Documents/mlmotions/d5demo/Assets/Demo/SIGGRAPH_2018'
+let g:netrw_dirhist_2='/Users/edwardahn/Documents/other/qi/Source/CoreRE'
+let g:netrw_dirhist_1='/Users/edwardahn/Documents/mlmotions/MLAnimationTest'
