@@ -32,3 +32,4 @@ Inspired by Richard Zhao's [.dotfiles](https://github.com/zhaorz/.dotfiles) repo
 
 * List plugins used in README
 * Add photo
+* https://github.com/onivim/oni/issues/826, but current path is /usr/local/opt/llvm, and last line was put in /usr/local/include; need to check if this is necessary! (symlinked)

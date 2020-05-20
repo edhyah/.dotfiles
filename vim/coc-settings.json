@@ -1,0 +1,21 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                "compile_commands.json",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "args": ["-log=verbose"],
+            "suggest.timeout": 100000
+        }
+    }
+}
