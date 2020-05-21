@@ -23,7 +23,7 @@ let g:solarized_termcolors=16
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 set listchars=tab:>-
-colorscheme solarized
+silent! colorscheme solarized
 
 """ Other key bindinds and commands
 command NT :NERDTree
