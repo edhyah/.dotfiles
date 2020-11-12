@@ -130,7 +130,7 @@ install_dotfiles () {
         then
             continue
         fi
-        dst="$HOME/.$(basename "$src")"
+        dst="$1/.$(basename "$src")"
         link_file "$src" "$dst"
     done
 }
