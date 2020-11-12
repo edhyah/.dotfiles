@@ -1,5 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/Users/edwardahn/Documents/mlmotions/d5demo/Assets/Demo/SIGGRAPH_2018'
-let g:netrw_dirhist_2='/Users/edwardahn/Documents/other/qi/Source/CoreRE'
-let g:netrw_dirhist_1='/Users/edwardahn/Documents/mlmotions/MLAnimationTest'
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/edwardahn/Documents/packages/pymarl/src'
+let g:netrw_dirhist_3='/Users/edwardahn/Documents/other/BalanceBallRC/BalanceBallRC'
+let g:netrw_dirhist_2='/Users/edwardahn/Documents/other/BalanceBallRC'
+let g:netrw_dirhist_1='/Users/edwardahn/Documents/other/BalanceBallRC/BalanceBallRC'
+let g:netrw_dirhist_0='/Users/edwardahn/Documents/other/BalanceBallRC'
+let g:netrw_dirhist_9='/AppleInternal/Library/Frameworks/Python.framework/Versions/3.7/include'
+let g:netrw_dirhist_8='/Users/edwardahn/Documents/mlmotions/SupervisorNetworkTrainer'
+let g:netrw_dirhist_7='/Users/edwardahn/Documents/other/CreatingAGameWithRealityComposer'
+let g:netrw_dirhist_6='/Users/edwardahn/Documents/other'
+let g:netrw_dirhist_5='/Users/edwardahn/Documents/packages/nitro_converter/mlmotion/convertedCoreMLModels'

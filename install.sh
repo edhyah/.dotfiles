@@ -135,7 +135,12 @@ install_dotfiles () {
     done
 }
 
-install_dotfiles
+installDir=$HOME
+if [ "$1" != "" ]
+then
+    installDir=$1
+fi
+install_dotfiles $installDir
 
 echo ''
 echo '  All installed!'

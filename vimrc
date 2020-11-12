@@ -66,6 +66,7 @@ noremap <silent> W 10w
 " Syntax highlighting for flow
 set runtimepath+=~/.vim/bundle/swift.vim
 au BufNewFile,BufRead *.flow set filetype=swift
+au BufNewFile,BufRead *.flow.txt set filetype=swift
 au BufNewFile,BufRead *.swift set filetype=swift
 
 

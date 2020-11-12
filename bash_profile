@@ -23,6 +23,7 @@ alias source_tmux='tmux source ~/.tmux.conf'
 alias flow='~/Documents/flowvm/build/cxx/flow'
 alias mlenv='source /Users/edwardahn/Documents/envs/mlagents/bin/activate'
 alias pubenv='source /Users/edwardahn/Documents/envs/pub/bin/activate'
+alias rlenv='source /Users/edwardahn/Documents/envs/rlenv/bin/activate'
 
 alias bulletenv='source /Users/edwardahn/Documents/envs/bullet/bin/activate; export PYTHONPATH=$PYTHONPATH:~/Documents/packages/bullet3/build_cmake/examples/pybullet'
 
@@ -35,4 +36,26 @@ export PATH="/usr/local/opt/llvm/bin:$PATH"
 #make build-xcode-pmp-framework && sh sh/export_framework.sh
 
 alias conda_activate='source ~/Documents/packages/anaconda3/bin/activate'
+alias conda2_activate='source ~/Documents/packages/anaconda3/bin/activate'
 alias conda_nitro='conda_activate && conda activate nitro'
+alias rllab='conda_activate && source activate rllab3'
+
+# Use brew's python
+export PATH=/opt/brew//Cellar/python@3.8/3.8.4/libexec/bin:/opt/brew/bin:$PATH
+
+# added by Anaconda2 2019.10 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+#__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/edwardahn/Documents/packages/anaconda2/bin/conda' shell.bash hook 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    \eval "$__conda_setup"
+#else
+#    if [ -f "/Users/edwardahn/Documents/packages/anaconda2/etc/profile.d/conda.sh" ]; then
+#        . "/Users/edwardahn/Documents/packages/anaconda2/etc/profile.d/conda.sh"
+#        CONDA_CHANGEPS1=false conda activate base
+#    else
+#        \export PATH="/Users/edwardahn/Documents/packages/anaconda2/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+# <<< conda init <<<
