@@ -2,6 +2,9 @@ stty -ixon
 
 # Prompt customization
 PS1='\[\e[1;91m\][\u@macbook9 \W]\$\[\e[0m\] '
+#export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+#export CLICOLOR=1
+#export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # Python history
 export PYTHONSTARTUP=$HOME/.pythonrc
@@ -38,7 +41,7 @@ export PATH="/usr/local/opt/llvm/bin:$PATH"
 alias conda_activate='source ~/Documents/packages/anaconda3/bin/activate'
 alias conda2_activate='source ~/Documents/packages/anaconda3/bin/activate'
 alias conda_nitro='conda_activate && conda activate nitro'
-alias rllab='conda_activate && source activate rllab3'
+alias rllab='conda_activate && source activate rllab3 && export PYTHONPATH=/Users/edwardahn/Documents/rlpipeline/REGym/REGym/python/rllab:$PYTHONPATH'
 
 # Use brew's python
 export PATH=/opt/brew//Cellar/python@3.8/3.8.4/libexec/bin:/opt/brew/bin:$PATH
@@ -59,3 +62,8 @@ export PATH=/opt/brew//Cellar/python@3.8/3.8.4/libexec/bin:/opt/brew/bin:$PATH
 #fi
 #unset __conda_setup
 # <<< conda init <<<
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
