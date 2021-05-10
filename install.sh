@@ -13,8 +13,6 @@ IGNORE=(
     "bin"
     "kwm"
     "hammerspoon"
-    "oh-my-zsh"
-    "oh-my-zsh-custom"
     "bash_profile"
 )
 
