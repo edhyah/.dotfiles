@@ -122,7 +122,8 @@ markdown() {
         echo ""
         return
     fi
-    python -m grip -b "$1"
+    token=$(cat ~/.griptoken)
+    python -m grip --pass "$token" -b "$1"
 }
 
 ###############################

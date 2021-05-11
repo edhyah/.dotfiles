@@ -68,6 +68,8 @@ au BufNewFile,BufRead *.flow set filetype=swift
 au BufNewFile,BufRead *.flow.txt set filetype=swift
 au BufNewFile,BufRead *.swift set filetype=swift
 
+au BufNewFile,BufRead *.md setlocal textwidth=80
+
 
 " Coc.nvim
 
