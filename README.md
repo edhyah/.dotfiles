@@ -2,10 +2,6 @@
 
 A collection of standard configuration files.
 
-## Notes
-
-These dotfiles are intended for a macOS system.
-
 ## Prerequisites
 
 * tmux
@@ -32,11 +28,5 @@ $ ./install.sh
 All files and directories will be symlinked to your home directory unless
 included in `IGNORE` in `install.sh`.
 
-If the arrow glyphs on the bottom do not show, install patched fonts for powerline [here](https://github.com/powerline/fonts). You will also need to set the Non-ASCII font in "iTerm > Preferences > Profiles > Text" to use a patched font (per [this](https://github.com/powerline/fonts/issues/44) issue).
+If the arrow glyphs on the bottom do not show, install patched fonts for powerline [here](https://github.com/powerline/fonts). You will also need to set the Non-ASCII font or check the "Use built-in Powerline glyphs" box in "iTerm > Preferences > Profiles > Text" to use a patched font (per [this](https://github.com/powerline/fonts/issues/44) issue).
 
-## TODO
-
-* List plugins used in README
-* Add photo
-* https://github.com/onivim/oni/issues/826, but current path is /usr/local/opt/llvm, and last line was put in /usr/local/include; need to check if this is necessary! (symlinked)
-* Full instructions: install vim-plug, oh-my-zsh, onehalfdark for gnome-terminal
