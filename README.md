@@ -6,6 +6,15 @@ A collection of standard configuration files.
 
 These dotfiles are intended for a macOS system.
 
+## Dependencies
+
+* tmux
+* oh-my-zsh
+* [onehalf](https://github.com/sonph/onehalf#installation--usage)
+* [neovim](https://github.com/neovim/neovim)
+* [nodejs](https://nodejs.org/en/download/)
+* [vim-plug](https://github.com/junegunn/vim-plug)
+
 ## Install
 
 I used the dark solarized theme for my terminal. To do this, download [iTerm2](https://iterm2.com) and change your profile to this color preset.
