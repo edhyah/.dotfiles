@@ -6,14 +6,15 @@ A collection of standard configuration files.
 
 These dotfiles are intended for a macOS system.
 
-## Dependencies
+## Prerequisites
 
 * tmux
 * oh-my-zsh
-* [onehalf](https://github.com/sonph/onehalf#installation--usage)
 * [neovim](https://github.com/neovim/neovim)
-* [nodejs](https://nodejs.org/en/download/)
 * [vim-plug](https://github.com/junegunn/vim-plug)
+* [onehalf](https://github.com/sonph/onehalf#installation--usage)
+* [nodejs](https://nodejs.org/en/download/)
+* [tmux-config](https://github.com/samoshkin/tmux-config)
 
 ## Install
 
@@ -32,10 +33,6 @@ All files and directories will be symlinked to your home directory unless
 included in `IGNORE` in `install.sh`.
 
 If the arrow glyphs on the bottom do not show, install patched fonts for powerline [here](https://github.com/powerline/fonts). You will also need to set the Non-ASCII font in "iTerm > Preferences > Profiles > Text" to use a patched font (per [this](https://github.com/powerline/fonts/issues/44) issue).
-
-## Acknowledgements
-
-Inspired by Richard Zhao's [.dotfiles](https://github.com/zhaorz/.dotfiles) repo.
 
 ## TODO
 

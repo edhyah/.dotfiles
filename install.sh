@@ -11,9 +11,6 @@ IGNORE=(
     ".DS_Store"
     "install.sh"
     "bin"
-    "kwm"
-    "hammerspoon"
-    "bash_profile"
 )
 
 DOTFILES_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
