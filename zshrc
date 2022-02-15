@@ -241,3 +241,5 @@ zle -N zle-keymap-select
 
 # Ensure effects are reset
 PROMPT+='%f%b'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

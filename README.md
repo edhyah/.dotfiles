@@ -14,6 +14,7 @@ each package.
 * [onehalf](https://github.com/sonph/onehalf#installation--usage)
 * [nodejs](https://nodejs.org/en/download/)
 * [tmux-config](https://github.com/samoshkin/tmux-config)
+* [fzf](https://github.com/junegunn/fzf)
 
 ## Install
 

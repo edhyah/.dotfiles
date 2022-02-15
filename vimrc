@@ -1,12 +1,14 @@
 " Specify a directory for plugins
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 call plug#end()
+
+let g:coc_global_extensions = ['coc-pyright']
 
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
