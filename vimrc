@@ -8,6 +8,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'mxw/vim-jsx'
 Plug 'Yggdroot/indentLine'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 let g:coc_global_extensions = [ 'coc-pyright', 'coc-tsserver' ]
