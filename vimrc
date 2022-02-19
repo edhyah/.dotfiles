@@ -6,9 +6,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'mxw/vim-jsx'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
-let g:coc_global_extensions = ['coc-pyright']
+let g:coc_global_extensions = [ 'coc-pyright', 'coc-tsserver' ]
 
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
