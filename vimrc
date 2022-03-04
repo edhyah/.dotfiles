@@ -9,6 +9,7 @@ Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'mxw/vim-jsx'
 Plug 'Yggdroot/indentLine'
 Plug 'jiangmiao/auto-pairs'
+Plug 'yaegassy/coc-tailwindcss',  {'do': 'npm install && npm run build', 'branch': 'feat/support-v3-and-use-server-pkg'}
 call plug#end()
 
 let g:coc_global_extensions = [ 'coc-pyright', 'coc-tsserver' ]
