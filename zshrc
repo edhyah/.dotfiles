@@ -70,7 +70,9 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+# For zsh-autosuggestions, run this first:
+#   `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+plugins=(git fzf zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -243,3 +245,7 @@ zle -N zle-keymap-select
 PROMPT+='%f%b'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+DISABLE_UPDATE_PROMPT=true
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#8892a8"
