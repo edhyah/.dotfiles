@@ -35,3 +35,15 @@ powerline [here](https://github.com/powerline/fonts). You will also need to set
 the Non-ASCII font or check the "Use built-in Powerline glyphs" box in "iTerm >
 Preferences > Profiles > Text" to use a patched font (per [this](https://github.com/powerline/fonts/issues/44) issue).
 
+
+## Notes
+
+* To remove type annotations in Vim, go to `:CocConfig` and add the following:
+```
+{
+    "pyright.inlayHints.variableTypes": false,
+    "pyright.inlayHints.parameterTypes": false,
+    "pyright.inlayHints.functionReturnTypes": false,
+}
+```
+
